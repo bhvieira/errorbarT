@@ -14,7 +14,6 @@ This is a parody library and is not intended for actual use. It is provided for 
         ymax = c(1.5, 2.5, 3.5)
     )
 
-# Create the plot
     ggplot(df, aes(x, y)) +
         geom_col() +
         geom_errorbarT()

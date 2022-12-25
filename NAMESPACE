@@ -1,0 +1,8 @@
+# Description: NAMESPACE file for errorbarT package
+# export the geom_errorbarT function to the user on loading the package
+# also, give a message to the user stating that this is a parody package
+# and that the geom_errorbarT function is not actually useful
+
+export(geom_errorbarT)
+
+import(ggplot2)
